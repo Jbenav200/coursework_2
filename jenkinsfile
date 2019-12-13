@@ -1,4 +1,9 @@
 pipeline {
+         environment{
+                  registry='jonathanba95/coursework_2'
+                  registryCredential='099d1692-9196-4ca3-b4e2-11ba202d87bf'
+                  image=''
+         }
          agent any
          stages {
                  stage('Checkout') {
